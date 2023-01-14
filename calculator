@@ -1,0 +1,11 @@
+num_list =[]
+sum = 0
+iteration = int(input("How many numbers would you like to calculate the average of: "))
+for i in range(iteration):
+    num = int(input("Enter number: "))
+    sum += num
+def average(sum, num):
+    average = sum / num
+    return average
+average = average(sum, num)
+print(average)
